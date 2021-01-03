@@ -24,10 +24,15 @@ public class Controller {
         textField.requestFocus();
     }
 
-
+    @FXML
     public void enterText(ActionEvent event) {
         textArea.appendText(textField.getText() + "\n");
         textField.clear();
         textField.requestFocus();
+    }
+
+    @FXML
+    public void clearTextArea(ActionEvent event) {
+        textArea.clear();
     }
 }
