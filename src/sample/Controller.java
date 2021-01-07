@@ -18,13 +18,6 @@ public class Controller {
     }
 
     @FXML
-    public void clickBtnSend(ActionEvent actionEvent) {
-        textArea.appendText(textField.getText() + "\n");
-        textField.clear();
-        textField.requestFocus();
-    }
-
-    @FXML
     public void enterText(ActionEvent event) {
         textArea.appendText(textField.getText() + "\n");
         textField.clear();

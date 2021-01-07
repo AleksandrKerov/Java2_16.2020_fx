@@ -32,7 +32,7 @@
         <HBox>
             <TextField fx:id="textField" HBox.hgrow="ALWAYS" maxWidth="Infinity" promptText="Введите сообщение"
                        onAction="#enterText"/>
-            <Button minWidth="110" text="Send message" onAction="#clickBtnSend"/>
+            <Button minWidth="110" text="Send message" onAction="#enterText"/>
         </HBox>
     </bottom>
 
